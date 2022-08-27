@@ -8,16 +8,14 @@
     tools:context=".MainActivity">
     <TextView
         android:id="@+id/appText"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="10dp"
-        android:layout_marginStart="42dp"
-        android:layout_marginEnd="26dp"
         android:layout_marginBottom="12dp"
         android:text="YOUR METRO BUDDY APP"
         android:textAlignment="center"
         android:textColor="@color/teal_700"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +26,8 @@
         android:id="@+id/gridLayout2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginBottom="20dp"
         app:columnCount="2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +37,7 @@
         app:rowCount="2">
 
         <LinearLayout
-            android:layout_width="200dp"
+            android:layout_width="180dp"
             android:layout_height="267dp"
             android:orientation="vertical">
 
@@ -48,21 +47,21 @@
                 android:layout_height="220dp"
                 android:layout_margin="10dp"
                 android:scaleType="fitXY"
-                tools:src="@drawable/map" />
+                android:src="@drawable/map" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="47dp"
                 android:text="Metro Map"
                 android:textAlignment="center"
-                android:textColor="@color/black"
+                android:textColor="@color/teal_700"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="200dp"
+            android:layout_width="180dp"
             android:layout_height="267dp"
             android:orientation="vertical">
 
@@ -72,20 +71,20 @@
                 android:layout_height="220dp"
                 android:layout_margin="10dp"
                 android:scaleType="fitXY"
-                tools:src="@drawable/route" />
+                android:src="@drawable/route" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="47dp"
                 android:text="Shortest Path"
                 android:textAlignment="center"
-                android:textColor="@color/black"
+                android:textColor="@color/teal_700"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="200dp"
+            android:layout_width="180dp"
             android:layout_height="267dp"
             android:orientation="vertical">
 
@@ -95,20 +94,20 @@
                 android:layout_height="220dp"
                 android:layout_margin="10dp"
                 android:scaleType="fitXY"
-                tools:src="@drawable/metrocard" />
+                android:src="@drawable/metrocard" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="47dp"
                 android:text="Card Recharge"
                 android:textAlignment="center"
-                android:textColor="@color/black"
+                android:textColor="@color/teal_700"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="200dp"
+            android:layout_width="180dp"
             android:layout_height="267dp"
             android:orientation="vertical">
 
@@ -118,14 +117,14 @@
                 android:layout_height="220dp"
                 android:layout_margin="10dp"
                 android:scaleType="fitXY"
-                tools:src="@drawable/updates" />
+                android:src="@drawable/updates" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="47dp"
                 android:text="Updates"
                 android:textAlignment="center"
-                android:textColor="@color/black"
+                android:textColor="@color/teal_700"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
